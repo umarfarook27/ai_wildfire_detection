@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfire Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🔥 AI-Based Wildfire Detection System 💧</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#risk-zones">Risk Zones</a></li>
+                <li><a href="#water-resources">Water Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="alerts">
+        <h2>🚨 Live Alerts</h2>
+        <button onclick="showMap()">View Fire Alert Map</button>
+        <div id="map-placeholder">Map will be displayed here.</div>
+    </section>
+
+    <section id="risk-zones">
+        <h2>⚠️ High & Low Risk Zones</h2>
+        <p>Displaying high and low-risk wildfire zones.</p>
+    </section>
+
+    <section id="water-resources">
+        <h2>💧 Water Resources</h2>
+        <p>Nearby water resources to help combat wildfires.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Wildfire Detection System | Designed for Safety</p>
+    </footer>
+    
+    <script>
+        function showMap() {
+            document.getElementById("map-placeholder").innerHTML = "<p>Interactive Wildfire Map Loading...</p>";
+        }
+    </script>
+</body>
+</html>
